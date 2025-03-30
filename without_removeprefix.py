@@ -5,3 +5,4 @@ prefix = input("Enter prefix to be remove: ")
 if string [ : len(prefix)] == prefix: #If yes, remove the prefix.
     string = string[len(prefix) : ]
 #If no, return the string unchanged.
+print ("Output: ", string)
