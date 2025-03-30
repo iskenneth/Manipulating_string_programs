@@ -7,10 +7,10 @@ swapcase = ""
 
 for char in string:
     if char in uppercase:
-    swapcase += lowercase[uppercase.index(char)]
+        swapcase += lowercase[uppercase.index(char)]
     elif char in lowercase:
         swapcase += uppercase[lowercase.index(char)] 
     else:
         swapcaee += char
-
 #Output: Print the modified string.
+print(swapcase)
