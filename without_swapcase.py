@@ -3,6 +3,14 @@ string = input("Enter a string: ")
 uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 lowercase = "abcdefghijklmnopqrstuvwxyz"
 #Loop: Go through each character in the string.
-#If the character is in uppercase (A-Z), replace it with its corresponding lowercase (a-z).
-#If the character is in lowercase (a-z), replace it with its corresponding uppercase (A-Z).
+swapcase = ""
+
+for char in string:
+    if char in uppercase:
+    swapcase += lowercase[uppercase.index(char)]
+    elif char in lowercase:
+        swapcase += uppercase[lowercase.index(char)] 
+    else:
+        swapcaee += char
+
 #Output: Print the modified string.
