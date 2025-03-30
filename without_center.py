@@ -7,5 +7,5 @@ if len(string) < margin:
     left_spaces = total_spaces // 2
     right_spaces = total_spaces - left_spaces
     string = ' ' * left_spaces + string + ' ' * right_spaces
-#Add spaces before and after the string.
 #Print the modified string.
+print(string)
