@@ -8,3 +8,4 @@ for word in words:
     title = word[ 0 ].upper() + word[ 1: ].lower()
     title_storage.append(title)
 #Join the words back together and print the result.
+print("Output: ", " ".join(title_storage))
