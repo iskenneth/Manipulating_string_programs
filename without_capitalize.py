@@ -4,7 +4,6 @@ string = input("Enter a string: ")
 if string:
     capitalized = string[0].upper() + string [ 1: ].lower()
 else:
-    capitalized = "
-#Convert the first character to uppercase.
-#Convert the rest of the string to lowercase.
+    capitalized = ""
 #Print the modified string.
+print("Output: ", capitalized)
