@@ -6,3 +6,4 @@ check = len(text) - 1
 while check >= 0 and text[check] == ' ':
     check -= 1
 #Print characters up to that point
+print(text[: check + 1])
