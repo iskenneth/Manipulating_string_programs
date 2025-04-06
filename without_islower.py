@@ -4,5 +4,10 @@ Input = input("Enter a string: ")
 lower = "abcdefghijklmnopqrstuvwxyz"
 upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 islower = True 
+
 #For each letter: If it's an uppercase letter, set result to false
+for letter in Input:
+    if letter in upper:
+        islower = False
+        break
 #Show result
