@@ -11,3 +11,4 @@ for letter in Input:
         islower = False
         break
 #Show result
+print(islower)
